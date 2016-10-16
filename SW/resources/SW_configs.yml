@@ -25,6 +25,8 @@ banned.commands.while.in.game:
 - /lobby
 - /spawn
 - /tpa
+- /eat
+- /feed
 - /tp
 - /tpaccept
 - /back
@@ -36,7 +38,7 @@ banned.commands.while.in.game:
 start.when.full: true
 
 # The countdown will only run when there will be N players in the arena.
-needed.players.to.run.countdown: 1
+needed.players.to.run.countdown: 2
 
 # ------------------------------------------HEALTH------------------------------------------
 #              1 = half a heart
@@ -79,7 +81,7 @@ damage.cancelled.causes:
 - 15
 
 # Players playing a SkyWars game won't drop anything on death if this option = "false".
-drops.on.death: false
+drops.on.death: true 
 
 # Players playing a SkyWars game won't be able to drop items if this option = "false".
 player.drop.item: true
@@ -90,7 +92,7 @@ chest.refill: true
 # If "chest.refill" (the above option) is "true" :
 # chests will be refilled on game start & , according to this option , each N seconds from the start.
 # N.B : To disable the "refill each N seconds" just put a big number EX: Your games lasts 5min? set this to 300.
-chest.refill.rate: 240
+chest.refill.rate: 200
 
 # After the game start, players won't be able to PvP for N seconds (default 20).
 # N.B : To disable this just put 0 seconds.
