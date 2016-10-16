@@ -48,6 +48,6 @@ class Glass extends PmGlass
 {
     public function canPassThrough()
     {
-        return true;
+        return true; //Main
     }
 }
